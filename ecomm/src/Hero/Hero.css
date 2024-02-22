@@ -1,0 +1,23 @@
+*{
+    font-family: "PP mori";
+}
+
+.hero{
+    height: 70vh;
+    /* background: #dc9cff; */
+    display: flex;
+    margin-bottom: 1rem;
+}
+.hero-left{
+
+    padding-left: 110px;
+    line-height: 1.1;
+}
+.hero-left img{
+    position: absolute;
+    height: 75vh;
+    width: 99%;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%);
+}

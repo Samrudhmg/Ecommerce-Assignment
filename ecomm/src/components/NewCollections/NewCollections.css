@@ -1,0 +1,26 @@
+.new-collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 170vh;
+  padding-bottom: 3rem;
+}
+.new-collections h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+.new-collections hr {
+  width: 200px;
+  height: 4px;
+  border-radius: 10px;
+  background: rgb(26, 26, 26);
+}
+.collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 1rem;
+  gap: 30px;
+}
